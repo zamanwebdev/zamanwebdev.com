@@ -51,8 +51,11 @@
                         <span class="icon-bar"></span>
                     </button>
                     
-                    <a href="index.php" class="site-logo"><img src="assets/img/logo.png" alt="logo"></a>
-
+<!--<a href="index.php" class="site-logo"><img src="assets/img/logo.png" alt="logo"></a>--> 
+                <div style="font-size: 25px">
+                    <b>Programmer<span style="color: #033b59;">Zaman</span></b> 
+                </div>
+                   
                 </div><!-- /.navbar-header -->
 
                 <div class="main-menu" id="portfolio-perfect-collapse">
@@ -101,26 +104,32 @@
         <section id="about" class="site-section section-about text-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <h2>About</h2>
-                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                        <p>
-                            <b>
-                                Hi! My name is Syed Zaman Mostafiz(you can say Zaman in short) and I am an expert web designer and also php web developer. 
-                            </b>
-                            <br>
-                            <br>
-                            A passionate and well educated web developer, always following best practices.
-
-                            Ready to offer my expertise! Feel free to get in touch for an initial consultation. 
-                            <br>
-                            <br>
-                            <b>
-                                Some of the technologies I have great experience with HTML5, CSS3, Javascript, jQuery, Bootstrap, Wordpress,Php, MySQL etc.
-                            </b>
-                        </p>
-                        <a href="Syed_Zaman_Mostafiz_CV.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a>
+                    <div class="col-lg-6">
+                        <img src="assets/img/me.jpg" style="width: 69%; border-radius: 100%">
                     </div>
+                    <div class="col-lg-6">
+                        <div class="">
+                            <h2>About</h2>
+                            <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                            <p>
+                                <b>
+                                    Hi! My name is Syed Zaman Mostafiz(you can say Zaman in short) and I am an expert web designer and also php web developer. 
+                                </b>
+                                <br>
+                                <br>
+                                A passionate and well educated web developer, always following best practices.
+
+                                Ready to offer my expertise! Feel free to get in touch for an initial consultation. 
+                                <br>
+                                <br>
+                                <b>
+                                    Some of the technologies I have great experience with HTML5, CSS3, Javascript, jQuery, Bootstrap, Wordpress,Php, MySQL etc.
+                                </b>
+                            </p>
+                            <a href="Syed_Zaman_Mostafiz_CV.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section><!-- /.secton-about -->
@@ -128,53 +137,14 @@
         <section class="site-section section-skills">
             <div class="container">
                 <div class="text-center">
-                    <h3>My Skills</h3>
+                    <h3><a href="https://github.com/zamanwebdev" target="_blank">My Projects On GitHub</a></h3>
                     <img src="assets/img/lines.svg" class="img-lines" alt="lines">
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="skill">
-                            <h4>Html/css</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="100"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                         <div class="skill">
-                            <h4>Javascript</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="82"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                    </div>
-                    <div class="col-md-4">
-                        <div class="skill">
-                            <h4>jQuery</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="82"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                         <div class="skill">
-                            <h4>Bootstrap</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="82"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                        
-                    </div>
-                    <div class="col-md-4">
-                        <div class="skill">
-                            <h4>Wordpress</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="97"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                        <div class="skill">
-                            <h4>Php</h4>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="45"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
-                    </div>
+                <div class="row text-center">
+                     <div class="page-scroll">
+                        <a href="https://github.com/zamanwebdev" target="_blank" class="btn btn-fill ">Click Here</a>
+                    </div>                  
+                    
                 </div>
             </div>
         </section><!-- /.secton-skills -->
@@ -492,11 +462,11 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/skrollr.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
+    <script src="assets/js/bootstrap-progressbar.min.js"></script>
     <script src="assets/js/jquery.countTo.min.js"></script>
     <script src="assets/js/script.js"></script>
   
